@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+nav h1 {
+  margin: 0;
+  margin-right: auto;
+}
+
+nav a {
+  color: #333;
+  padding: 4px 10px;
+}
+
+nav a.active {
+  color: white;
+  background: #333;
+  text-decoration: none;
+}
