@@ -1,14 +1,10 @@
 import "./App.css";
-// import { BrowserRouter, Route, NavLink } from "react-router-dom";
-import Reservation from "./Components/Reservation";
-
+import { Form } from "./Form";
 function App() {
-  //main page
   return (
     <div className="App">
-      <Reservation />
+      <Form />
     </div>
   );
 }
-
 export default App;

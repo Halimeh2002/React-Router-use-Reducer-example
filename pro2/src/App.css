@@ -1,7 +1,18 @@
 .App {
+  width: 250px;
   text-align: center;
+  margin: auto;
 }
-
+input {
+  display: block;
+  width: 100%;
+}
+.success {
+  background-color: green;
+}
+.warnning {
+  background-color: red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
